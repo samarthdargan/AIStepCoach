@@ -1,0 +1,90 @@
+# ─── Secrets & credentials (NEVER commit) ──────────────────
+.env
+.env.local
+.env.*.local
+credentials.json
+client_secret*.json
+token.pkl
+token.json
+*.pem
+*.key
+
+# ─── Personal data / generated artifacts ────────────────────
+sandbox/*
+!sandbox/.gitkeep
+*.log
+
+# ─── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── Virtual environments ──────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ─── Testing & type checking ───────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ─── Jupyter / notebooks ───────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── IDE / editors ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.aider*
+
+# ─── macOS ─────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Linux / Windows ───────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─── Logs & temp ───────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+nohup.out
